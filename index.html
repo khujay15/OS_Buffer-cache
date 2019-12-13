@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Buffer Cache</title>
+
+    <meta charset="UTF-8" />
+  </head>
+
+  <body style="margin-left:24px">
+    <h2>2015104215 컴퓨터공학과 장재혁</h2>
+    <span id="clock"></span>
+    <div style="display: flex;flex-direction: row;">
+      <div id="BufferTable" style="margin-top: 20px;margin-bottom: 20px;"></div>
+      <div style="margin-left: 20px">
+        <table>
+          <tr>
+            <td>
+              <p>읽을 블록(정지 : -1):</p>
+            </td>
+            <td>
+              <input type="number" id="BlockIdx" style="width: 50px" />
+            </td>
+
+            <td>
+              <input
+                type="button"
+                value="요청"
+                name="requestBlock"
+                id="requestBlock"
+              />
+            </td>
+          </tr>
+        </table>
+
+        <div id="RequestTable" style="margin-top: 15px;"></div>
+      </div>
+    </div>
+
+    <noscript>주의!: 자바스크립트 파일을 실행해야합니다.</noscript>
+    <script src="./makeHTML.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
