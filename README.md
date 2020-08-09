@@ -6,5 +6,3 @@
 
 ## Screen Shot
 
-
-![screen](https://github.com/khujay15/OS_Buffer-cache/blob/master/screenShot.png)
